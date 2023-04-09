@@ -10,6 +10,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "@storybook/addon-styling": "^0.3.2",
     "@storybook/builder-vite": "^0.4.2",
     "@storybook/html": "^6.5.16",
     "autoprefixer": "^10.4.13",

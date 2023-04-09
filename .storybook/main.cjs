@@ -2,7 +2,7 @@ const Solid = require("vite-plugin-solid");
 
 module.exports = {
   stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
-  addons: [],
+  addons: ["@storybook/addon-styling"],
   framework: "@storybook/html",
   core: {
     builder: "@storybook/builder-vite",
