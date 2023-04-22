@@ -1,22 +1,20 @@
 export const UpperSection = () => {
   return (
     <section>
-      <div class="flex flex-col md:flex-row items-center py-8">
-        <div class="w-full md:w-2/5 pr-10 pb-10">
+      <div class="flex flex-col items-center md:flex-row my-10">
+        <div class="w-full md:w-2/5 md:mr-5">
           <h2 class="text-3xl">
             Online 3D parametric (algorithmic) structural engineering software
           </h2>
-          <p class="pt-6">
+          <p class="mt-5">
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
         </div>
-        <div class="w-full h-96 md:w-3/5">
-          <iframe
-            class="w-full h-full"
-            src="https://awatif.co/examples/2d-truss/"
-          ></iframe>
-        </div>
+        <iframe
+          class="w-full h-96 mt-5 md:w-3/5 md:mt-0"
+          src="https://awatif.co/examples/2d-truss/"
+        ></iframe>
       </div>
     </section>
   );

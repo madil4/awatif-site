@@ -25,15 +25,13 @@ export default function Root() {
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Body>
+      <Body class="container mx-auto px-4">
         <Suspense>
           <ErrorBoundary>
-            <div class="container mx-auto">
-              <Navbar />
-              <Routes>
-                <FileRoutes />
-              </Routes>
-            </div>
+            <Navbar />
+            <Routes>
+              <FileRoutes />
+            </Routes>
           </ErrorBoundary>
         </Suspense>
         <Scripts />
