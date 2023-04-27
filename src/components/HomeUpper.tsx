@@ -6,8 +6,8 @@ export const HomeUpper = () => {
           Online 3D parametric (algorithmic) structural engineering software
         </h2>
         <p class="mt-5">
-          We Finally have a FEM software that run on the browser, easy to use,
-          open source, parametric and can run non-linear simulation robustly
+          Design and analyze trusses, frames, and beams with ease using our
+          online parametric modeling software
         </p>
       </div>
       <iframe
