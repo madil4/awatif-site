@@ -1,6 +1,6 @@
-export const LowerSection = () => {
+export const HomeLower = () => {
   return (
-    <section class="flex flex-col space-y-10 mb-5 md:flex-row md:justify-between md:items-start md:space-y-0 md:space-x-20">
+    <section class="flex flex-col space-y-10 mb-10 md:flex-row md:justify-between md:items-start md:space-y-0 md:space-x-20">
       <div class="md:w-1/3">
         <h3 class="text-2xl mb-3">Features</h3>
         <ul class="space-y-2">

@@ -1,6 +1,6 @@
-export const UpperSection = () => {
+export const HomeUpper = () => {
   return (
-    <section class="flex flex-col items-center md:flex-row my-10">
+    <section class="flex flex-col items-center md:flex-row mb-10">
       <div class="w-full md:w-2/5 md:mr-5">
         <h2 class="text-3xl">
           Online 3D parametric (algorithmic) structural engineering software

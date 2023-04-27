@@ -1,11 +1,11 @@
-import { LowerSection } from "~/components/LowerSection";
-import { UpperSection } from "~/components/UpperSection";
+import { HomeLower } from "~/components/HomeLower";
+import { HomeUpper } from "~/components/HomeUpper";
 
 export default function Home() {
   return (
-    <main>
-      <UpperSection />
-      <LowerSection />
-    </main>
+    <>
+      <HomeUpper />
+      <HomeLower />
+    </>
   );
 }
