@@ -4,10 +4,10 @@ export const HomeLower = () => {
       <div class="md:w-1/3">
         <h3 class="text-2xl mb-3">Features</h3>
         <ul class="space-y-2">
-          <li>🔥 Easy to use </li>
-          <li>🔥 Runs on any browser</li>
-          <li>🔥 Allow parametric modeling</li>
-          <li>🔥 All dynamic and non-linear simulation</li>
+          <li>🎨 Easy to use user-interface</li>
+          <li>🌐 Design and simulate from any browser</li>
+          <li>🧱 Create complex designs with parametric modeling</li>
+          <li>📈 Supports static, dynamic, and non-linear simulations</li>
         </ul>
       </div>
       <div class="md:w-1/3">
@@ -20,14 +20,15 @@ export const HomeLower = () => {
               alt="Mohamed Adil"
             />
             <div class="ml-5">
-              <h4 class="text-xl">Mohamed adil - Founder</h4>
+              <h4 class="text-xl">Mohamed Adil - Founder</h4>
               <p class="text-sm">
-                A full-stack software developer and an ex structural engineer
-                with the ambition to improve structural design processes.
+                Structural engineer and software developer passionate about
+                optimizing the structural design process.
               </p>
               <a
                 class="text-sm font-medium"
                 href="https://www.linkedin.com/in/madil4/"
+                target="_blank"
               >
                 Linkedin
               </a>
@@ -40,10 +41,10 @@ export const HomeLower = () => {
               alt="Mohamed Adil"
             />
             <div class="ml-5">
-              <h4 class="text-xl">Are you next?</h4>
+              <h4 class="text-xl">Join our team!</h4>
               <p class="text-sm">
-                We our looking for enthusiastic software developers and
-                structural engineers to join our team. Just drop us a message
+                I am seeking enthusiastic software developers and structural
+                engineers. Send me a message
               </p>
             </div>
           </div>
@@ -53,18 +54,27 @@ export const HomeLower = () => {
         <h3 class="text-2xl mb-3">Links</h3>
         <ul>
           <li>
-            <a href="https://github.com/madil4/awatif">GitHub</a>
+            <a href="https://github.com/madil4/awatif" target="_blank">
+              GitHub
+            </a>
           </li>
           <li>
-            <a href="https://app.slack.com/client/T047EBMMPD5/">Slack</a>
+            <a href="https://app.slack.com/client/T047EBMMPD5/" target="_blank">
+              Slack
+            </a>
           </li>
           <li>
-            <a href="https://mohamedadil.us19.list-manage.com/subscribe?u=80eec59eb329b1c9c00258524&id=95cfe71596">
+            <a
+              href="https://mohamedadil.us19.list-manage.com/subscribe?u=80eec59eb329b1c9c00258524&id=95cfe71596"
+              target="_blank"
+            >
               Newsletter
             </a>
           </li>
           <li>
-            <a href="mailto:mohamed@awatif.co">Contact Us</a>
+            <a href="mailto:mohamed@awatif.co" target="_blank">
+              Contact Us
+            </a>
           </li>
         </ul>
       </div>
