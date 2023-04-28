@@ -7,7 +7,7 @@ export const HomeUpper = () => {
         </h2>
         <p class="mt-5">
           Design and analyze trusses, frames, and beams with ease using our
-          online parametric modeling software
+          modern structural engineering software
         </p>
       </div>
       <iframe
