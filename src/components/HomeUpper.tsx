@@ -10,7 +10,11 @@ export const HomeUpper = () => {
           modern structural engineering software
         </p>
       </div>
-      <img class="md:w-1/2 rounded-md" src="../3d-truss-analysis.jpg" />
+      <img
+        class="md:w-1/2 rounded-md"
+        src="../3d-truss-analysis.jpg"
+        alt="3d truss analysis"
+      />
     </section>
   );
 };

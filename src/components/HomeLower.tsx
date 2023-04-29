@@ -52,7 +52,7 @@ export const HomeLower = () => {
       </div>
       <div class="md:w-1/3">
         <h3 class="text-2xl mb-3">Links</h3>
-        <ul>
+        <ul class="space-y-2">
           <li>
             <a href="https://github.com/madil4/awatif" target="_blank">
               GitHub
