@@ -24,6 +24,16 @@ export default function Root() {
         </Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Meta
+          name="description"
+          content="Design and analyze trusses, frames, and beams with ease using our modern structural engineering software"
+        />
+        <Meta
+          name="keywords"
+          content="engineering, design, computational, fem, bim, parametric, structural, awatif"
+        />
+        <Meta name="author" content="Mohamed Adil" />
+        <Meta name="robots" content="index, follow" />
       </Head>
       <Body class="container mx-auto px-4">
         <Suspense>
