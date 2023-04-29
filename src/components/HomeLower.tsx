@@ -44,7 +44,7 @@ export const HomeLower = () => {
               <h4 class="text-xl">Join our team!</h4>
               <p class="text-sm">
                 I am seeking enthusiastic software developers and structural
-                engineers. Send me a message
+                engineers. Just send me a message
               </p>
             </div>
           </div>
