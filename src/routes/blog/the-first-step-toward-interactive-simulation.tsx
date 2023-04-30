@@ -8,8 +8,7 @@ export default function InteractiveSimulation(props: any) {
   return (
     <article>
       <h2 class="text-2xl mb-5">
-        <Show when={!props.showLink}>{title}</Show>
-        <Show when={props.showLink}>
+        <Show when={props.showLink} fallback={title}>
           <A href={`/blog/${slug}`}>{title}</A>
         </Show>
       </h2>
