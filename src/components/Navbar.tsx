@@ -29,8 +29,9 @@ export const Navbar = () => {
         </div>
 
         <button onclick={toggleMobileMene} class="text-3xl md:hidden">
-          <Show when={mobileMenuOn()}>x</Show>
-          <Show when={!mobileMenuOn()}>☰</Show>
+          <Show when={mobileMenuOn()} fallback={<>☰</>}>
+            x
+          </Show>
         </button>
 
         <Show when={mobileMenuOn()}>
