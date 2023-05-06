@@ -9,8 +9,7 @@ export const HomeLower = () => {
           <li>🧱 Create complex designs with parametric modeling.</li>
           <li>📈 Supports static, dynamic, and non-linear simulations.</li>
           <li>
-            📚 An ecosystem of existing libraries for modeling, analysis, and
-            design.
+            📚 An ecosystem of libraries for modeling, analysis, and design.
           </li>
         </ul>
       </div>

@@ -19,8 +19,7 @@ export default function Root() {
     <Html lang="en">
       <Head>
         <Title>
-          Awatif - Online 3D parametric (algorithmic) structural engineering
-          software
+          Awatif - The First Online Parametric Structural Engineering Software
         </Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,13 +34,15 @@ export default function Root() {
         <Meta name="author" content="Mohamed Adil" />
         <Meta name="robots" content="index, follow" />
       </Head>
-      <Body class="container mx-auto px-4">
+      <Body class="px-5">
         <Suspense>
           <ErrorBoundary>
             <Navbar />
-            <Routes>
-              <FileRoutes />
-            </Routes>
+            <div class="max-w-screen-xl mx-auto">
+              <Routes>
+                <FileRoutes />
+              </Routes>
+            </div>
           </ErrorBoundary>
         </Suspense>
         <Scripts />
