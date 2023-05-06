@@ -3,11 +3,11 @@ export const HomeUpper = () => {
     <section class="flex flex-col items-center md:flex-row mb-10">
       <div class="md:w-1/2  md:pr-14">
         <h2 class="text-3xl mb-5">
-          Online 3D parametric (algorithmic) structural engineering software
+          The First Online Parametric Structural Engineering Software
         </h2>
         <p class="mb-5">
           Design and analyze trusses, frames, and beams with ease using our
-          modern structural engineering software
+          modern structural engineering software.
         </p>
       </div>
       <img
