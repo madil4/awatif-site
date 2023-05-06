@@ -4,10 +4,14 @@ export const HomeLower = () => {
       <div class="md:w-1/3">
         <h3 class="text-2xl mb-3">Features</h3>
         <ul class="space-y-2">
-          <li>🎨 Easy to use user-interface</li>
-          <li>🌐 Design and simulate from any browser</li>
-          <li>🧱 Create complex designs with parametric modeling</li>
-          <li>📈 Supports static, dynamic, and non-linear simulations</li>
+          <li>🎨 User-friendly interface.</li>
+          <li>🌐 Design and simulate from any browser.</li>
+          <li>🧱 Create complex designs with parametric modeling.</li>
+          <li>📈 Supports static, dynamic, and non-linear simulations.</li>
+          <li>
+            📚 An ecosystem of existing libraries for modeling, analysis, and
+            design.
+          </li>
         </ul>
       </div>
       <div class="md:w-1/3">
@@ -44,7 +48,7 @@ export const HomeLower = () => {
               <h4 class="text-xl">Join our team!</h4>
               <p class="text-sm">
                 I am seeking enthusiastic software developers and structural
-                engineers. Just send me a message
+                engineers. Just send me a message.
               </p>
             </div>
           </div>
