@@ -34,11 +34,11 @@ export default function Root() {
         <Meta name="author" content="Mohamed Adil" />
         <Meta name="robots" content="index, follow" />
       </Head>
-      <Body class="px-5">
+      <Body>
         <Suspense>
           <ErrorBoundary>
             <Navbar />
-            <div class="max-w-screen-xl mx-auto">
+            <div class="max-w-screen-xl mx-auto px-5">
               <Routes>
                 <FileRoutes />
               </Routes>
