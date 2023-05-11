@@ -62,8 +62,8 @@ export const HomeLower = () => {
             </a>
           </li>
           <li>
-            <a href="https://app.slack.com/client/T047EBMMPD5/" target="_blank">
-              Slack
+            <a href="https://discord.gg/XXUvHsHK" target="_blank">
+              Discord
             </a>
           </li>
           <li>
