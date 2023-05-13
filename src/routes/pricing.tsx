@@ -22,7 +22,7 @@ export default function Pricing() {
 
         <div class="overflow-hidden border-2 border-gray-100 rounded-md p-5">
           <p class="mb-4 text-lg font-medium text-gray-500">Standard Plan</p>
-          <p class="text-6xl font-bold mb-8">$10</p>
+          <p class="text-6xl font-bold mb-8">$25</p>
           <ul class="space-y-1">
             <li class=" text-gray-900 lg:text-xl">
               For day-to-day structural design
@@ -36,7 +36,7 @@ export default function Pricing() {
 
         <div class="overflow-hidden border-2 border-gray-100 rounded-md p-5">
           <p class="mb-4 text-lg font-medium text-gray-500">Advanced Plan</p>
-          <p class="text-6xl font-bold mb-8">$50</p>
+          <p class="text-6xl font-bold mb-8">$75</p>
           <ul class="space-y-1">
             <li class=" text-gray-900 lg:text-xl">For advanced simulations</li>
             <li class=" text-green-800 lg:text-l">Bar and frame elements </li>
