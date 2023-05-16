@@ -8,7 +8,7 @@ export default function Pricing() {
       <div class="grid grid-cols-1 gap-6 mx-auto text-center mb-16 md:grid-cols-3">
         <div class="overflow-hidden border-2 border-gray-100 rounded-md p-5">
           <p class="mb-4 text-lg font-medium text-gray-500">Basic Plan</p>
-          <p class="text-6xl font-bold mb-8">$0</p>
+          <p class="text-6xl font-bold mb-8">$0/Month</p>
           <ul class="space-y-1">
             <li class=" text-gray-900 lg:text-xl">
               For experimentation and learning
@@ -22,7 +22,7 @@ export default function Pricing() {
 
         <div class="overflow-hidden border-2 border-gray-100 rounded-md p-5">
           <p class="mb-4 text-lg font-medium text-gray-500">Standard Plan</p>
-          <p class="text-6xl font-bold mb-8">$25</p>
+          <p class="text-6xl font-bold mb-8">$25/Month</p>
           <ul class="space-y-1">
             <li class=" text-gray-900 lg:text-xl">
               For day-to-day structural design
@@ -36,7 +36,7 @@ export default function Pricing() {
 
         <div class="overflow-hidden border-2 border-gray-100 rounded-md p-5">
           <p class="mb-4 text-lg font-medium text-gray-500">Advanced Plan</p>
-          <p class="text-6xl font-bold mb-8">$75</p>
+          <p class="text-6xl font-bold mb-8">$75/Month</p>
           <ul class="space-y-1">
             <li class=" text-gray-900 lg:text-xl">For advanced simulations</li>
             <li class=" text-green-800 lg:text-l">Bar and frame elements </li>
