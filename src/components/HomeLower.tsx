@@ -62,7 +62,7 @@ export const HomeLower = () => {
             </a>
           </li>
           <li>
-            <a href="https://discord.gg/XXUvHsHK" target="_blank">
+            <a href="https://discord.gg/u3j2rnYrdR" target="_blank">
               Discord
             </a>
           </li>
