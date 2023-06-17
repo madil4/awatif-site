@@ -1,15 +1,14 @@
 export default function Docs() {
   return (
     <p>
-      Documentation is still in progress. Please subscribe to our
-      newsletter&#32;
+      Please visit this page for the documentation:{" "}
       <a
-        href="https://mohamedadil.us19.list-manage.com/subscribe?u=80eec59eb329b1c9c00258524&id=95cfe71596"
+        href="https://mohamedadil.notion.site/Getting-started-a8565ccbdea641b7b4793a6f42d983af?pvs=4"
         target="_blank"
+        style={{ color: "#3f8ba3" }}
       >
-        here
-      </a>{" "}
-      to get notified when it is done.
+        https://mohamedadil.notion.site/Getting-started-a8565ccbdea641b7b4793a6f42d983af?pvs=4
+      </a>
     </p>
   );
 }

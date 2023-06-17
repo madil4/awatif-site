@@ -1,7 +1,7 @@
 {
   "name": "awatif-site",
   "scripts": {
-    "dev": "solid-start dev",
+    "dev": "solid-start dev -o",
     "build": "solid-start build",
     "start": "solid-start start"
   },
