@@ -13,8 +13,6 @@ export default function InteractiveSimulation(props: any) {
         </Show>
       </h2>
 
-      <img src={`../blog/${slug}.gif`} class="mb-5" />
-
       <p class="mb-5">
         Here is a teaser of what I'm working on now. The idea is to experience
         interactive simulations for structural analysis. What I'm showing is
@@ -39,6 +37,17 @@ export default function InteractiveSimulation(props: any) {
         Phew! that is a challenge, but I'm up for it...please share your
         thoughts, your feedbacks are valuable (:
       </p>
+
+      <iframe
+        class="mb-5"
+        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6731269421328818177?compact=1"
+        height="399"
+        width="710"
+        frameborder="0"
+        /* @ts-expect-error */
+        allowfullscreen=""
+        title="Embedded post"
+      ></iframe>
     </article>
   );
 }

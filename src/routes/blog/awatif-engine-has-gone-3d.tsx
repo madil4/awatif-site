@@ -13,8 +13,6 @@ export default function Awatif3D(props: any) {
         </Show>
       </h2>
 
-      <img src={`../blog/${slug}.gif`} class="mb-5" />
-
       <p class="mb-5">
         It's been a year since my last post, that is a lot! I have been going
         through some life events but now I’m back on track with more excitement
@@ -43,6 +41,17 @@ export default function Awatif3D(props: any) {
         <a href="https://webglfundamentals.org/">webglfundamentals</a> for their
         simple and intuitive explanations of these techniques.
       </p>
+
+      <iframe
+        class="mb-5"
+        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6890683241544728576?compact=1"
+        height="399"
+        width="710"
+        frameborder="0"
+        /* @ts-expect-error */
+        allowfullscreen=""
+        title="Embedded post"
+      ></iframe>
     </article>
   );
 }

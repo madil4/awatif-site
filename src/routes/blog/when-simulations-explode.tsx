@@ -13,8 +13,6 @@ export default function SimulationExplode(props: any) {
         </Show>
       </h2>
 
-      <img src={`../blog/${slug}.gif`} class="mb-5" />
-
       <p class="mb-5">
         Last week I showed some pretty animations{" "}
         <A href="../blog/the-first-step-toward-interactive-simulation">
@@ -27,6 +25,17 @@ export default function SimulationExplode(props: any) {
         numerical damping. In future updates, we will tackle these issues, for
         now, I just want a simulation that doesn't explode.
       </p>
+
+      <iframe
+        class="mb-5"
+        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6733745125907824640?compact=1"
+        height="399"
+        width="710"
+        frameborder="0"
+        /* @ts-expect-error */
+        allowfullscreen=""
+        title="Embedded post"
+      ></iframe>
     </article>
   );
 }

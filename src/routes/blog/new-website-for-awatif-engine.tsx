@@ -13,8 +13,6 @@ export default function NewWebsite(props: any) {
         </Show>
       </h2>
 
-      <img src={`../blog/${slug}.gif`} class="mb-5" />
-
       <p class="mb-5">
         was surprised by the amount of enthusiasm and engagement that I got from
         my previous posts about the new project. So I decided to take it more
@@ -24,6 +22,8 @@ export default function NewWebsite(props: any) {
         hesitate to share your thoughts and feedback, they are really leading
         the progress.
       </p>
+
+      <img src={`/blog/${slug}.gif`} class="mb-5" />
     </article>
   );
 }

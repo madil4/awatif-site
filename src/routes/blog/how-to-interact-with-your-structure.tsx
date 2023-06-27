@@ -13,8 +13,6 @@ export default function InteractStructure(props: any) {
         </Show>
       </h2>
 
-      <img src={`../blog/${slug}.gif`} class="mb-5" />
-
       <p class="mb-5">
         There are multiple ways to interact with physics simulations, the choice
         of the method depends strongly on the simulation type if it is fluid or
@@ -29,10 +27,7 @@ export default function InteractStructure(props: any) {
         movements that wouldn't be possible with the displacement method.
       </p>
 
-      <p class="mb-5">
-        Side note: I have used triangular finite-elements or membrane elements
-        for this example.
-      </p>
+      <img src={`/blog/${slug}.gif`} class="mb-5" />
     </article>
   );
 }

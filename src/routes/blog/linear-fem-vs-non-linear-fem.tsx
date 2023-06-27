@@ -13,8 +13,6 @@ export default function NonlinearFEM(props: any) {
         </Show>
       </h2>
 
-      <img src={`../blog/${slug}-1.gif`} class="mb-5" />
-
       <p class="mb-5">
         The linear elasticity material model is great for structures with small
         deformations such as stiff bridges and buildings. However, as soon as
@@ -30,8 +28,7 @@ export default function NonlinearFEM(props: any) {
         challenging task.
       </p>
 
-      <img src={`../blog/${slug}-2.gif`} class="mb-5" />
-      <img src={`../blog/${slug}-3.gif`} class="mb-5" />
+      <img src={`/blog/${slug}-1.gif`} class="mb-5" />
 
       <p class="mb-5">
         In these examples, I used the polar decomposition approach with explicit
@@ -41,6 +38,9 @@ export default function NonlinearFEM(props: any) {
         definitely use implicit integrator due to its great features that we
         talked about in the previous post.
       </p>
+
+      <img src={`/blog/${slug}-2.gif`} class="mb-5" />
+      <img src={`/blog/${slug}-3.gif`} class="mb-5" />
     </article>
   );
 }
