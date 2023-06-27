@@ -1,20 +1,25 @@
+import { A } from "solid-start";
+
 export const HomeLower = () => {
   return (
     <section class="flex flex-col space-y-10 mb-10 lg:flex-row lg:justify-between lg:items-start lg:space-y-0 lg:space-x-20">
       <div class="lg:w-2/5">
-        <h3 class="text-2xl mb-3">Features</h3>
+        <h3 class="text-2xl mb-3 font-bold">Features</h3>
         <ul class="space-y-2">
-          <li>🎨 User-friendly interface.</li>
-          <li>🌐 Design and simulate from any browser.</li>
-          <li>🧱 Create complex designs with parametric modeling.</li>
-          <li>📈 Supports static, dynamic, and non-linear simulations.</li>
           <li>
-            📚 An ecosystem of libraries for modeling, analysis, and design.
+            🚀 Affordable, battle-tested FEM solver for only{" "}
+            <A href="/pricing" class="link">
+              25$/m
+            </A>
           </li>
+          <li>🧱 Create complex designs with parametric modeling</li>
+          <li>🌐 Design and simulate from any browser</li>
+          <li>🎨 User-friendly interface</li>
         </ul>
       </div>
+
       <div class="lg:w-2/5">
-        <h3 class="text-2xl mb-3">Team</h3>
+        <h3 class="text-2xl mb-3 font-bold">Team</h3>
         <div class="flex flex-col space-y-4">
           <div class="flex flex-row items-center">
             <img
@@ -29,7 +34,7 @@ export const HomeLower = () => {
                 optimizing the structural design process.
               </p>
               <a
-                class="text-sm font-medium"
+                class="text-sm font-medium link"
                 href="https://www.linkedin.com/in/madil4/"
                 target="_blank"
               >
@@ -53,16 +58,25 @@ export const HomeLower = () => {
           </div>
         </div>
       </div>
+
       <div class="lg:w-1/5">
-        <h3 class="text-2xl mb-3">Links</h3>
+        <h3 class="text-2xl mb-3 font-bold">Links</h3>
         <ul class="space-y-2">
           <li>
-            <a href="https://github.com/madil4/awatif" target="_blank">
+            <a
+              href="https://github.com/madil4/awatif"
+              target="_blank"
+              class="link"
+            >
               GitHub
             </a>
           </li>
           <li>
-            <a href="https://discord.gg/u3j2rnYrdR" target="_blank">
+            <a
+              href="https://discord.gg/u3j2rnYrdR"
+              target="_blank"
+              class="link"
+            >
               Discord
             </a>
           </li>
@@ -70,12 +84,13 @@ export const HomeLower = () => {
             <a
               href="https://mohamedadil.us19.list-manage.com/subscribe?u=80eec59eb329b1c9c00258524&id=95cfe71596"
               target="_blank"
+              class="link"
             >
               Newsletter
             </a>
           </li>
           <li>
-            <a href="mailto:mohamed@awatif.co" target="_blank">
+            <a href="mailto:mohamed@awatif.co" target="_blank" class="link">
               Contact Us
             </a>
           </li>

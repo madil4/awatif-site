@@ -1,5 +1,10 @@
-import { A } from "solid-start";
+import { Title } from "solid-start";
 
 export default function NotFound() {
-  return <p>Page not found</p>;
+  return (
+    <>
+      <Title>Awatif - Page not found</Title>
+      <p>Page not found</p>
+    </>
+  );
 }
