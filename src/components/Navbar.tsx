@@ -10,7 +10,7 @@ export const Navbar = () => {
     <nav class="flex justify-between items-center bg-slate-100 sticky top-0 px-5 py-2 mb-10">
       <div class="flex items-center">
         <A href="/">
-          <img src="../logo.svg" alt="Awatif" class="w-12 h-12 mr-2" />
+          <img src="/logo.svg" alt="Awatif" class="w-12 h-12 mr-2" />
         </A>
         <A href="/" class="text-xl">
           Awatif
