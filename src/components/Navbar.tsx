@@ -1,59 +1,37 @@
-import { Show, createSignal } from "solid-js";
 import { A } from "solid-start";
 
 export const Navbar = () => {
-  let [mobileMenuOn, setMobileMenuOn] = createSignal(false);
-
-  const toggleMobileMene = () => setMobileMenuOn(!mobileMenuOn());
-
   return (
-    <nav class="flex justify-between items-center bg-slate-100 sticky top-0 px-5 py-2 mb-10">
-      <div class="flex items-center">
+    <div class="navbar bg-base-100 sticky top-0">
+      <div class="flex-1">
         <A href="/">
-          <img src="/logo.svg" alt="Awatif" class="w-12 h-12 mr-2" />
+          <img src="/logo.svg" alt="Awatif" class="w-10 h-10" />
         </A>
-        <A href="/" class="text-xl">
+        <A href="/" class="btn btn-ghost normal-case text-xl">
           Awatif
         </A>
       </div>
-
-      <div>
-        <div class="hidden space-x-4 md:block">
-          <a href="https://app.awatif.co" target="_blank">
-            App
-          </a>
-          <A href="/docs">Docs</A>
-          <A href="/examples">Examples</A>
-          <A href="/blog">Blog</A>
-          <A href="/pricing">Pricing</A>
-        </div>
-
-        <button onclick={toggleMobileMene} class="text-3xl md:hidden">
-          <Show when={mobileMenuOn()} fallback={<>☰</>}>
-            x
-          </Show>
-        </button>
-
-        <Show when={mobileMenuOn()}>
-          <div class="md:hidden absolute flex flex-col items-center py-4 mt-3 space-y-4 bg-white left-6 right-6 drop-shadow-md">
+      <div class="flex-none">
+        <ul class="menu menu-horizontal px-1">
+          <li>
             <a href="https://app.awatif.co" target="_blank">
               App
             </a>
-            <A href="/docs" onclick={toggleMobileMene}>
-              Docs
-            </A>
-            <A href="/examples" onclick={toggleMobileMene}>
-              Examples
-            </A>
-            <A href="/blog" onclick={toggleMobileMene}>
-              Blog
-            </A>
-            <A href="/pricing" onclick={toggleMobileMene}>
-              Pricing
-            </A>
-          </div>
-        </Show>
+          </li>
+          <li>
+            <A href="/docs">Docs</A>
+          </li>
+          <li>
+            <A href="/examples">Examples</A>
+          </li>
+          <li>
+            <A href="/blog">Blog</A>
+          </li>
+          <li>
+            <A href="/pricing">Pricing</A>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
   );
 };

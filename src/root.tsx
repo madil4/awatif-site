@@ -13,6 +13,7 @@ import {
 } from "solid-start";
 import "./root.css";
 import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 
 export default function Root() {
   return (
@@ -37,11 +38,14 @@ export default function Root() {
       <Body>
         <Suspense>
           <ErrorBoundary>
-            <Navbar />
-            <div class="max-w-screen-xl mx-auto px-5">
-              <Routes>
-                <FileRoutes />
-              </Routes>
+            <div class="flex flex-col min-h-screen">
+              <Navbar />
+              <div class="max-w-screen-xl mx-auto px-5 flex-grow">
+                <Routes>
+                  <FileRoutes />
+                </Routes>
+              </div>
+              <Footer />
             </div>
           </ErrorBoundary>
         </Suspense>

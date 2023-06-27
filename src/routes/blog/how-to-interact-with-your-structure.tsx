@@ -1,5 +1,6 @@
 import { A } from "@solidjs/router";
 import { Show } from "solid-js";
+import { Title } from "solid-start";
 
 export default function InteractStructure(props: any) {
   const title = "How to interact with your structure";
@@ -7,9 +8,12 @@ export default function InteractStructure(props: any) {
 
   return (
     <article>
+      <Title>Awatif - {title}</Title>
       <h2 class="text-2xl mb-5">
         <Show when={props.showLink} fallback={title}>
-          <A href={`/blog/${slug}`}>{title}</A>
+          <A href={`/blog/${slug}`} class="link link-primary">
+            {title}
+          </A>
         </Show>
       </h2>
 
