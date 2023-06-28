@@ -11,7 +11,7 @@ export default function ParametricTruss(props: any) {
       <Title>Awatif - {props.isBlogPage ? "Blog" : title}</Title>
       <h2 class="text-2xl mb-5">
         <Show when={props.isBlogPage} fallback={title}>
-          <A href={`/blog/${slug}`} class="link link-primary">
+          <A href={`/blog/${slug}`} class="link">
             {title}
           </A>
         </Show>
