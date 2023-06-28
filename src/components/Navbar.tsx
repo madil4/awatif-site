@@ -2,7 +2,7 @@ import { A } from "solid-start";
 
 export const Navbar = () => {
   return (
-    <div class="navbar bg-base-100 sticky top-0">
+    <div class="navbar bg-base-100 sticky top-0 mb-5">
       <div class="flex-1">
         <A href="/">
           <img src="/logo.svg" alt="Awatif" class="w-10 h-10" />
