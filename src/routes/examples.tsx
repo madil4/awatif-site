@@ -4,8 +4,8 @@ export default function Examples() {
   return (
     <>
       <Title>Awatif - Examples</Title>
-      <div class="grid grid-cols-4 gap-4">
-        <div class="card card-compact w-72 bg-neutral shadow-xl">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="card card-compact bg-neutral shadow-xl">
           <figure>
             <a href="https://app.awatif.co/?user_id=1e9e6f54-bc8d-4dd7-8554-ffa7124f8d81&slug=three-bars">
               <img src="/examples/three-bars.jpg" alt="Three Bars" />
@@ -25,7 +25,7 @@ export default function Examples() {
             </p>
           </div>
         </div>
-        <div class="card card-compact w-72 bg-neutral shadow-xl">
+        <div class="card card-compact bg-neutral shadow-xl">
           <figure>
             <a href="https://app.awatif.co/?user_id=1e9e6f54-bc8d-4dd7-8554-ffa7124f8d81&slug=building">
               <img src="/examples/building.jpg" alt="Building" />
@@ -45,7 +45,7 @@ export default function Examples() {
             </p>
           </div>
         </div>
-        <div class="card card-compact w-72 bg-neutral shadow-xl">
+        <div class="card card-compact bg-neutral shadow-xl">
           <figure>
             <a href="https://app.awatif.co/?user_id=1e9e6f54-bc8d-4dd7-8554-ffa7124f8d81&slug=2d-truss">
               <img src="/examples/2d-truss.jpg" alt="2D Truss" />
@@ -65,7 +65,7 @@ export default function Examples() {
             </p>
           </div>
         </div>
-        <div class="card card-compact w-72 bg-neutral shadow-xl">
+        <div class="card card-compact bg-neutral shadow-xl">
           <figure>
             <a href="https://app.awatif.co/?user_id=1e9e6f54-bc8d-4dd7-8554-ffa7124f8d81&slug=warehouse">
               <img src="/examples/warehouse.jpg" alt="Warehouse" />
@@ -85,7 +85,7 @@ export default function Examples() {
             </p>
           </div>
         </div>
-        <div class="card card-compact w-72 bg-neutral shadow-xl">
+        <div class="card card-compact bg-neutral shadow-xl">
           <figure>
             <a href="https://app.awatif.co/?user_id=1e9e6f54-bc8d-4dd7-8554-ffa7124f8d81&slug=sphere">
               <img src="/examples/sphere.jpg" alt="Sphere" />
@@ -105,7 +105,7 @@ export default function Examples() {
             </p>
           </div>
         </div>
-        <div class="card card-compact w-72 bg-neutral shadow-xl">
+        <div class="card card-compact bg-neutral shadow-xl">
           <figure>
             <img src="/examples/add-yours.jpg" alt="Add Yours!" />
           </figure>
