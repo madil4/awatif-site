@@ -5,8 +5,7 @@ import { Title } from "solid-start";
 export default function IntroducingAwatif(props: any) {
   const title =
     "Awatif: Empowering Structural Engineers with Open-Source Parametric Design";
-  const slug =
-    "awatif-empowering-structural-engineers-with-open-Source-parametric-design";
+  const slug = "awatif-empowering-structural-engineers";
 
   return (
     <article>
@@ -29,16 +28,10 @@ export default function IntroducingAwatif(props: any) {
         don't hesitate to reach out for further information.
       </p>
 
-      <iframe
-        class="mb-5"
-        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7035941135336230913?compact=1"
-        height="399"
-        width="710"
-        frameborder="0"
-        /* @ts-expect-error */
-        allowfullscreen=""
-        title="Embedded post"
-      ></iframe>
+      <video width="500" class="mb-5" controls>
+        <source src={`/blog/${slug}.mp4`} type="video/mp4" />
+        Your browser does not support HTML video.
+      </video>
     </article>
   );
 }
