@@ -8,9 +8,9 @@ export default function SimulationExplode(props: any) {
 
   return (
     <article>
-      <Title>Awatif - {title}</Title>
+      <Title>Awatif - {props.isBlogPage ? "Blog" : title}</Title>
       <h2 class="text-2xl mb-5">
-        <Show when={props.showLink} fallback={title}>
+        <Show when={props.isBlogPage} fallback={title}>
           <A href={`/blog/${slug}`} class="link link-primary">
             {title}
           </A>

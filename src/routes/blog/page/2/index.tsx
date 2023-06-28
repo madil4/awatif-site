@@ -8,13 +8,12 @@ import { A, Title } from "solid-start";
 export default function Index() {
   return (
     <>
-      <Title>Awatif - Blog</Title>
       <div class="flex flex-col space-y-5">
-        <TestingTeam showLink={true} />
-        <IntroducingAwatif showLink={true} />
-        <StayTuned showLink={true} />
-        <Awatif3D showLink={true} />
-        <InteractStructure showLink={true} />
+        <TestingTeam isBlogPage={true} />
+        <IntroducingAwatif isBlogPage={true} />
+        <StayTuned isBlogPage={true} />
+        <Awatif3D isBlogPage={true} />
+        <InteractStructure isBlogPage={true} />
       </div>
       <div class="join mb-5">
         <A href="/blog" class="join-item btn">

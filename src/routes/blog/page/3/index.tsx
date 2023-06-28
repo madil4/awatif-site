@@ -7,12 +7,11 @@ import SimulationExplode from "../../when-simulations-explode";
 export default function Index() {
   return (
     <>
-      <Title>Awatif - Blog</Title>
       <div class="flex flex-col space-y-5">
-        <NewWebsite showLink={true} />
-        <NonlinearFEM showLink={true} />
-        <SimulationExplode showLink={true} />
-        <InteractiveSimulation showLink={true} />
+        <NewWebsite isBlogPage={true} />
+        <NonlinearFEM isBlogPage={true} />
+        <SimulationExplode isBlogPage={true} />
+        <InteractiveSimulation isBlogPage={true} />
       </div>
       <div class="join mb-5">
         <A href="/blog" class="join-item btn">
