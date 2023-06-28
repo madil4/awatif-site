@@ -40,7 +40,7 @@ export default function Root() {
           <ErrorBoundary>
             <div class="flex flex-col min-h-screen">
               <Navbar />
-              <div class="max-w-screen-xl mx-auto px-5 flex-grow">
+              <div class="flex-grow max-w-screen-xl mx-auto px-5">
                 <Routes>
                   <FileRoutes />
                 </Routes>
