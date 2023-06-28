@@ -24,16 +24,10 @@ export default function TestingTeam(props: any) {
         that can add value to you. Reach out to me here on LinkedIn.
       </p>
 
-      <iframe
-        class="mb-5"
-        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7063070455108136960?compact=1"
-        height="399"
-        width="710"
-        frameborder="0"
-        /* @ts-expect-error */
-        allowfullscreen=""
-        title="Embedded post"
-      ></iframe>
+      <video width="500" class="mb-5" controls>
+        <source src={`/blog/${slug}.mp4`} type="video/mp4" />
+        Your browser does not support HTML video.
+      </video>
     </article>
   );
 }

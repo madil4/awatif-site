@@ -12,8 +12,8 @@ export default function Index() {
       <div class="flex flex-col space-y-5">
         <TestingTeam showLink={true} />
         <IntroducingAwatif showLink={true} />
-        <Awatif3D showLink={true} />
         <StayTuned showLink={true} />
+        <Awatif3D showLink={true} />
         <InteractStructure showLink={true} />
       </div>
       <div class="join mb-5">

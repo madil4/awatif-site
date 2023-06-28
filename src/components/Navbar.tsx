@@ -14,21 +14,33 @@ export const Navbar = () => {
       <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
           <li>
-            <a href="https://app.awatif.co" target="_blank">
+            <a
+              class="px-2 lg:px-4"
+              href="https://app.awatif.co"
+              target="_blank"
+            >
               App
             </a>
           </li>
           <li>
-            <A href="/docs">Docs</A>
+            <A class="px-2 lg:px-4" href="/docs">
+              Docs
+            </A>
           </li>
           <li>
-            <A href="/examples">Examples</A>
+            <A class="px-2 lg:px-4" href="/examples">
+              Examples
+            </A>
           </li>
           <li>
-            <A href="/blog">Blog</A>
+            <A class="px-2 lg:px-4" href="/blog">
+              Blog
+            </A>
           </li>
           <li>
-            <A href="/pricing">Pricing</A>
+            <A class="px-2 lg:px-4" href="/pricing">
+              Pricing
+            </A>
           </li>
         </ul>
       </div>

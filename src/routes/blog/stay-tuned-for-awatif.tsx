@@ -22,16 +22,10 @@ export default function StayTuned(props: any) {
         parametric modeling, rapid changes, and accurate analysis
       </p>
 
-      <iframe
-        class="mb-5"
-        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7034906005125623808?compact=1"
-        height="399"
-        width="710"
-        frameborder="0"
-        /* @ts-expect-error */
-        allowfullscreen=""
-        title="Embedded post"
-      ></iframe>
+      <video width="300" class="mb-5" controls>
+        <source src={`/blog/${slug}.mp4`} type="video/mp4" />
+        Your browser does not support HTML video.
+      </video>
     </article>
   );
 }

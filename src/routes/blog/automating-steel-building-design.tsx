@@ -29,16 +29,10 @@ export default function SteelDesign(props: any) {
         project to automate.
       </p>
 
-      <iframe
-        class="mb-5"
-        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7076479239671144448?compact=1"
-        height="399"
-        width="710"
-        frameborder="0"
-        /* @ts-expect-error */
-        allowfullscreen=""
-        title="Embedded post"
-      ></iframe>
+      <video width="600" class="mb-5" controls>
+        <source src={`/blog/${slug}.mp4`} type="video/mp4" />
+        Your browser does not support HTML video.
+      </video>
     </article>
   );
 }
