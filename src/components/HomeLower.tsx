@@ -94,6 +94,11 @@ export const HomeLower = () => {
               Contact Us
             </a>
           </li>
+          <li>
+            <A href="/terms-and-privacy" class="link">
+              Terms and Privacy
+            </A>
+          </li>
         </ul>
       </div>
     </section>
