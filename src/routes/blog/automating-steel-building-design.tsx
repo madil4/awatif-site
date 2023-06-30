@@ -29,7 +29,7 @@ export default function SteelDesign(props: any) {
         project to automate.
       </p>
 
-      <video width="600" class="mb-5" controls>
+      <video width="600" class="mb-5" poster={`/blog/${slug}.jpeg`} controls>
         <source src={`/blog/${slug}.mp4`} type="video/mp4" />
         Your browser does not support HTML video.
       </video>
