@@ -14,6 +14,7 @@ import {
 import "./root.css";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
+import { createScriptLoader } from "@solid-primitives/script-loader";
 
 export default function Root() {
   return (
@@ -36,6 +37,9 @@ export default function Root() {
         <Meta name="robots" content="index, follow" />
       </Head>
       <Body>
+        {createScriptLoader({
+          src: "https://plausible.io/js/script.js",
+        })}
         <Suspense>
           <ErrorBoundary>
             <div class="flex flex-col min-h-screen">
