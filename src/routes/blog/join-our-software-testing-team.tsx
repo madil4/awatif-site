@@ -24,7 +24,7 @@ export default function TestingTeam(props: any) {
         that can add value to you. Reach out to me here on LinkedIn.
       </p>
 
-      <video width="500" class="mb-5" controls>
+      <video width="500" class="mb-5" poster={`/blog/${slug}.jpeg`} controls>
         <source src={`/blog/${slug}.mp4`} type="video/mp4" />
         Your browser does not support HTML video.
       </video>
