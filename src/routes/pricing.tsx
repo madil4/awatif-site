@@ -42,7 +42,7 @@ export default function Pricing() {
         <div class="overflow-hidden border-2 border-gray-100 rounded-md p-5">
           <p class="mb-4 text-lg font-medium text-gray-500">PRO</p>
           <p class="text-4xl font-bold mb-5">
-            {annual() ? <>$100/y</> : <>$10/m</>}
+            {annual() ? <>€100/y</> : <>€10/m</>}
           </p>
           <ul class="text-left space-y-1 mb-5">
             <li>✅ Unlimited projects</li>
