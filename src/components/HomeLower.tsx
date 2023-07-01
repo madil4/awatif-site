@@ -7,9 +7,9 @@ export const HomeLower = () => {
         <h3 class="text-2xl mb-3 font-bold">Features</h3>
         <ul class="space-y-2">
           <li>
-            🚀 Affordable, battle-tested FEM solver for only{" "}
+            🚀 Battle-tested FEM solver for only{" "}
             <A href="/pricing" class="link">
-              25$/m
+              $25 per month
             </A>
           </li>
           <li>🧱 Create complex designs with parametric modeling</li>
