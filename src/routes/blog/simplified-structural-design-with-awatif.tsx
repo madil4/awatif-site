@@ -21,11 +21,7 @@ export default function SimplifiedDesign(props: any) {
         You don’t have to be a programmer to use Awatif for your structural
         design. You can simply define your inputs, such as loads and supports,
         and obtain outputs such as stresses and deformations in an interactive
-        environment that helps you explore more with less.You don’t have to be a
-        programmer to use Awatif for your structural design. You can simply
-        define your inputs, such as loads and supports, and obtain outputs such
-        as stresses and deformations in an interactive environment that helps
-        you explore more with less.
+        environment that helps you explore more with less.
       </p>
 
       <video width="600" class="mb-5" poster={`/blog/${slug}.jpeg`} controls>
