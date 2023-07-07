@@ -1,5 +1,3 @@
-import { A } from "solid-start";
-
 export const Footer = () => {
   return (
     <footer class="footer footer-center p-4 text-base-content bottom-0 relative">
