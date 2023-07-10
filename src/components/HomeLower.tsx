@@ -9,7 +9,7 @@ export const HomeLower = () => {
           <li>
             🚀 Battle-tested FEM solver for only{" "}
             <A href="/pricing" class="link">
-              $25 per month
+              $10 per month
             </A>
           </li>
           <li>🧱 Create complex designs with parametric modeling</li>
