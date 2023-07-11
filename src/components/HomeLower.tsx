@@ -14,7 +14,8 @@ export const HomeLower = () => {
           </li>
           <li>🧱 Create complex designs with parametric modeling</li>
           <li>🌐 Design and simulate from any browser</li>
-          <li>🎨 User-friendly interface</li>
+          <li>🔧 Automate your design process from exploration to generating detailed reports and drawings</li>
+          <li>📊 It's open-source, except for the FEM solver, which is a plugin</li>
         </ul>
       </div>
 
