@@ -105,6 +105,27 @@ export default function Examples() {
             </p>
           </div>
         </div>
+
+        <div class="card card-compact bg-neutral shadow-xl">
+          <figure>
+            <a href="https://app.awatif.co/?user_id=1e9e6f54-bc8d-4dd7-8554-ffa7124f8d81&slug=3d-tower">
+              <img src="/examples/3d-tower.jpg" alt="3D Tower" />
+            </a>
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">3D tower</h2>
+            <p>
+              By{" "}
+              <a
+                href="https://www.linkedin.com/in/madil4/"
+                target="_blank"
+                class="link"
+              >
+                Mohamed Adil
+              </a>
+            </p>
+          </div>
+        </div>
         <div class="card card-compact bg-neutral shadow-xl">
           <figure>
             <img src="/examples/add-yours.jpg" alt="Add Yours!" />
