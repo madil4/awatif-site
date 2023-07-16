@@ -14,8 +14,8 @@ export const HomeLower = () => {
           </li>
           <li>🌐 Design and simulate from any browser</li>
           <li>🏓 Interactive realtime simulations</li>
-          <li>🧱 Text-based parametric modelling powered by JavaScript (Python soon)</li>
-          <li>🔧 Automate design processes from exploration to reports and drawings</li>
+          <li>🧱 Parametric modeling powered by JavaScript (Python soon)</li>
+          <li>🔧 Automate boring repetitive design processes</li>
           <li>📊 Open-source, under MIT license</li>
         </ul>
       </div>
