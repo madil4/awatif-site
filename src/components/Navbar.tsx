@@ -15,7 +15,7 @@ export const Navbar = () => {
         <ul class="menu menu-horizontal px-1">
           <li>
             <a
-              class="px-2 lg:px-4"
+              class="px-2 lg:px-4 text-white bg-primary hover:bg-primary hover:text-white"
               href="https://app.awatif.co"
               target="_blank"
             >
