@@ -127,12 +127,12 @@ export default function Examples() {
         </div>
         <div class="card card-compact bg-neutral shadow-xl">
           <figure>
-            <a href="https://app.awatif.co/?user_id=1e9e6f54-bc8d-4dd7-8554-ffa7124f8d81&slug=arch-bridge">
-              <img src="/examples/arch-bridge.jpg" alt="Arch Bridge" />
+            <a href="https://app.awatif.co/?user_id=1e9e6f54-bc8d-4dd7-8554-ffa7124f8d81&slug=arched-bridge">
+              <img src="/examples/arched-bridge.jpg" alt="Arched Bridge" />
             </a>
           </figure>
           <div class="card-body">
-            <h2 class="card-title">Arch Bridge</h2>
+            <h2 class="card-title">Arched Bridge</h2>
             <p>
               By{" "}
               <a
