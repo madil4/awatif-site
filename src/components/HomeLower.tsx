@@ -75,15 +75,6 @@ export const HomeLower = () => {
           </li>
           <li>
             <a
-              href="https://discord.gg/u3j2rnYrdR"
-              target="_blank"
-              class="link"
-            >
-              Discord
-            </a>
-          </li>
-          <li>
-            <a
               href="https://mohamedadil.us19.list-manage.com/subscribe?u=80eec59eb329b1c9c00258524&id=95cfe71596"
               target="_blank"
               class="link"
